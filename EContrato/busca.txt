@@ -1,0 +1,50 @@
+
+
+    # @tentativa
+    # Esquema do Cenário: Fazer uma busca sem preencher campos -  sem sucesso 
+    
+    # Dado que eu não selecione "<UF>" nenhuma opção de busca 
+    # Quando eu clico no botão Consultar 
+    # Então não é exibido o resultados conforme o termo buscado e exibe mensagem de alerta: Erro inesperado, tente novamente ou contate o suporte para maiores informações.
+    
+    # Exemplos: 
+    #     |UF|
+    #     |PB|
+    #     |SP|
+    #     |AP|
+    #     |SC|
+    #     |MG|
+    #     |PR|
+    #     |PE|
+        
+    # @tentativa
+    # Esquema do Cenário: Fazer uma busca simples por Tipo de Operação - Registro de Contrato 
+
+    #     Quando eu faço uma nova busca por "<tipo de operação>"
+    #     Então vejo resultados conforme o termo buscado 
+
+    # @tentativa
+    # Esquema do Cenário: Fazer uma busca simples por Situação de Registro - Ativo 
+
+    # Esquema do Cenário: Fazer uma busca simples por Situação de Registro - Inativo 
+
+    # Esquema do Cenário: Fazer uma busca simples por Nome do Credor 
+
+    # Esquema do Cenário: Fazer uma busca simples por Nome do Devedor 
+
+    # Esquema do Cenário: Fazer uma busca simples por Municipio Devedor 
+
+    # Esquema do Cenário: Fazer uma busca simples por UF Devedor 
+
+    # Esquema do Cenário: Fazer uma busca simples por Periodo 
+
+    # Esquema do Cenário: Fazer uma busca simples por Tipo - Contrato 
+
+    # Esquema do Cenário: Fazer uma busca simples por Tipo - Revavan 
+
+    # Esquema do Cenário: Fazer uma busca simples por Tipo - Chassi 
+
+    # Esquema do Cenário: Fazer uma busca simples por Tipo - Placa 
+
+
+
